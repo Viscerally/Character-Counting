@@ -8,6 +8,7 @@ function countLetters(string) {
         if (sorted[character]){
             sorted[character]++;
         }  else {
+        //    happens on first encounter of a character
             sorted[character] = 1;   
         }  
     
